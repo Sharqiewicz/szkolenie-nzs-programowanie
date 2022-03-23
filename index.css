@@ -1,0 +1,107 @@
+body{
+    background: url('./assets/background.jpg') fixed;
+    font-family: 'Montserrat', sans-serif;
+    color: #fdfdfd;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+header h4:hover{
+    transition: 0.5s;
+    color: aqua;
+}
+
+main{
+    width: 800px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+h1{
+    font-size: 96px;
+    box-sizing: border-box;
+    margin-bottom: 0;
+}
+
+h3{
+    margin: 5;
+    font-size: 48px;
+    box-sizing: border-box;
+}
+
+.mePhoto{
+    border-radius: 15px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.welcome{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.welcome__message{
+    padding: 20px;
+}
+
+.welcome__photo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.description__container{
+    margin: 80px 50px 0px 50px;
+    font-weight: 200;
+}
+
+.contact__container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__button{
+    border-radius: 15px;
+    border: 0px solid black;
+    background: rgb(3, 180, 77);
+    color: white;
+    font-size: 20px;
+    padding: 15px 25px 15px 45px;
+    margin: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.contact__icon{
+    width: 30px;
+    height: 30px;
+    background: white;
+    padding: 10px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -50px;
+    z-index: 3;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.contact__container:hover .contact__icon{
+    margin-right:0;
+}
+
+.icon__img{
+    width: 80%;
+}
